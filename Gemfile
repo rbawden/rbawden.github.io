@@ -14,3 +14,13 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
 gemspec
 
+
+gem "webrick", "~> 1.9"
+gem "bigdecimal"
+gem "logger"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-scholar"
+end
