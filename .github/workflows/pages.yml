@@ -4,12 +4,17 @@
 
 - uses: ruby/setup-ruby@v1
   with:
-    ruby-version: "3.2"
-    bundler-cache: true
+    ruby-version: "2.7.8"
+
+- name: Install bundler (2.x)
+  run: gem install bundler -v "~> 2.4"
 
 - uses: actions/configure-pages@v5
 
+- name: Install gems (Jekyll 3 bundle)
+  run: bundle _2.4.22_ install --gemfile=gemfiles/jekyll_3.gemfile
+
 - name: Build site
+  run: bundle _2.4.22_ exec jekyll build --future --config _config_ci.yml,_config.yml
   env:
-    BUNDLE_GEMFILE: Gemfile
-  run: bundle exec jekyll build -d _site
+    BUNDLE_GEMFILE: gemfiles/jekyll_3.gemfile
