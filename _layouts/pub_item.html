@@ -1,0 +1,72 @@
+{%- assign my_last = "Bawden" -%}
+
+{%- assign is_thesis = false -%}
+{%- if entry.type == "thesis" or entry.type == "Theses" or entry.type == "phdthesis" or entry.type == "mastersthesis" -%}
+  {%- assign is_thesis = true -%}
+{%- endif -%}
+
+<div class="pub-item" id="{{ key }}">
+
+  {%- comment -%} ---------- AUTHORS ---------- {%- endcomment -%}
+  <span class="pub-authors">
+    {%- if entry.author_array -%}
+      {%- for a in entry.author_array -%}
+        {%- assign given  = a.first  | default: a.given  | default: "" -%}
+        {%- assign family = a.last   | default: a.family | default: "" -%}
+        {%- capture name -%}{{ given }} {{ family }}{%- endcapture -%}
+        {%- if family == my_last -%}<strong>{{ name }}</strong>{%- else -%}{{ name }}{%- endif -%}
+        {%- unless forloop.last -%}{% if entry.author_array.size == 2 %} &amp; {% else %}, {% endif %}{%- endunless -%}
+      {%- endfor -%}
+    {%- else -%}
+      {{ entry.author }}
+    {%- endif -%}
+  </span>
+
+  {%- comment -%} ---------- YEAR + THESIS BADGE + DOT ---------- {%- endcomment -%}
+  {%- capture headbits -%}
+    {%- if entry.year -%}&nbsp;({{ entry.year }}){%- endif -%}
+    {%- if is_thesis -%}
+      <span class="pub-badge pub-badge--thesis">
+        {%- if entry.type == "phdthesis" -%}. PhD thesis
+        {%- elsif entry.type == "mastersthesis" -%}. Master’s thesis
+        {%- else -%}Thesis{%- endif -%}
+      </span>
+    {%- endif -%}
+  {%- endcapture -%}
+  {{ headbits | strip }}.
+
+  {%- comment -%} ---------- TITLE + DOT ---------- {%- endcomment -%}
+  {%- assign title = entry.title | default: "(untitled)" -%}
+  {%- capture titlebit -%}&nbsp;
+    {%- if entry.doi -%}
+      <a class="pub-title" href="https://doi.org/{{ entry.doi | strip }}">{{ title }}</a>
+    {%- elsif entry.url -%}
+      <a class="pub-title" href="{{ entry.url }}">{{ title }}</a>
+    {%- else -%}
+      <span class="pub-title">{{ title }}</span>
+    {%- endif -%}
+  {%- endcapture -%}
+  {{ titlebit | strip }}. 
+
+  {%- comment -%} ---------- VENUE/PAGES (non-thesis) ---------- {%- endcomment -%}
+  {%- capture venuebit -%}
+    {%- if entry.booktitle -%}<em> {{ entry.booktitle }}</em>{%- endif -%}
+    {%- if entry.journal -%}<em> {{ entry.journal }}</em>{%- endif -%}
+    {%- if entry.pages -%}, {{ entry.pages }}{%- endif -%}
+  {%- endcapture -%}
+  {%- assign venuebit_stripped = venuebit | strip -%}
+  {%- if venuebit_stripped != "" and is_thesis == false -%}
+    {{ venuebit_stripped }}.
+  {%- endif -%}
+
+  {%- comment -%} ---------- THESIS META (own line, tidy separators) ---------- {%- endcomment -%}
+  {%- if is_thesis -%}
+    <!-- {%- capture thesismeta -%} -->
+      {%- if entry.school -%} {{ entry.school }}{%- endif -%}
+      {%- if entry.address -%}.  {{ entry.address }}{%- endif -%}
+      {%- if entry.note -%}. {{ entry.note }}.{%- endif -%}
+    <!-- {%- endcapture -%} -->
+    <!-- {{ thesismeta }}. -->
+  {%- endif -%}
+
+</div>

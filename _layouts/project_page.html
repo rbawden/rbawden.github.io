@@ -15,7 +15,8 @@ layout: base
         </div>
       {% endif %}
 
-      {% if page.profileimage %}<img src="{{ page.profileimage }}" id="profileimage">{% endif %}
+      {% include project_grid.html projects=page.projects %}
+	
       {{ content }}
 
       {% if page.after-content %}

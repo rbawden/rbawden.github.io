@@ -1,0 +1,88 @@
+{% assign present = page.projects | where: "status", "Active" %}
+{% assign past = page.projects | where_exp: "p", "p.status != 'Active'" %}
+
+<section class="projects-section">
+  <h2 class="projects-heading">Current projects</h2>
+
+  <div class="projects-grid">
+    {% for p in present %}
+      <article class="project-card">
+  <header class="project-card__header">
+    <div class="project-card__logo">
+      <img src="{{ p.logo | relative_url }}" alt="{{ p.title | escape }} logo" loading="lazy">
+    </div>
+
+    <div class="project-card__headings">
+      <h3 class="project-card__title">{{ p.title }}</h3>
+      {% if p.url %}
+    <a class="project-card__url"
+       href="{{ p.url | escape }}"
+       target="_blank" rel="noopener">
+      {{ p.url | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' }} ↗
+    </a>
+  {% endif %}
+
+    </div>
+  </header>
+
+    <p class="project-card__desc">{{ p.description }}
+    {% if p.pi %}<br><br> The project is led by {{ p.pi }}.{% endif %}
+    {% if p.role %}My role in the project is {{ p.role }}.{% endif %}
+    </p>
+    
+  <!-- {% if p.tags %} -->
+    <div class="project-card__tags">
+      {% if p.dates %}<span class="tag">{{ p.dates }}</span>{% endif %}
+      {% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+    </div>
+    <!-- {% endif %} -->
+   
+</article>
+
+    {% endfor %}
+  </div>
+</section>
+
+<br><br>
+  
+<section class="projects-section">
+  <h2 class="projects-heading">Past projects</h2>
+
+  <div class="projects-grid">
+    {% for p in past %}
+      <article class="project-card">
+  <header class="project-card__header">
+    <div class="project-card__logo">
+      <img src="{{ p.logo | relative_url }}" alt="{{ p.title | escape }} logo" loading="lazy">
+    </div>
+
+    <div class="project-card__headings">
+      <h3 class="project-card__title">{{ p.title }}</h3>
+      {% if p.url %}
+    <a class="project-card__url"
+       href="{{ p.url | escape }}"
+       target="_blank" rel="noopener">
+      {{ p.url | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' }} ↗
+    </a>
+  {% endif %}
+
+    </div>
+  </header>
+
+    <p class="project-card__desc">{{ p.description }}
+    {% if p.pi %}<br><br> The project was led by {{ p.pi }}.{% endif %}
+    {% if p.role %}<br><br>My role in the project was {{ p.role }}.{% endif %}
+    </p>
+
+  <!-- {% if p.tags %} -->
+    <div class="project-card__tags">
+      {% if p.dates %}<span class="tag">{{ p.dates }}</span>{% endif %}
+      {% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+    </div>
+  <!-- {% endif %} -->
+
+</article>
+
+    {% endfor %}
+  </div>
+</section>
