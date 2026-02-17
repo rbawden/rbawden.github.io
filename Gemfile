@@ -14,6 +14,7 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
 gemspec
 
+gem "jekyll", "~> 4.3"
 
 gem "webrick", "~> 1.9"
 gem "bigdecimal"
@@ -23,5 +24,4 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-scholar"
-  gem "bibtex-ruby", "~> 5.1"
 end
