@@ -1,17 +1,15 @@
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          lfs: true
+- uses: actions/checkout@v4
+  with:
+    lfs: true
 
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "2.7.2"
-          bundler-cache: true
+- uses: ruby/setup-ruby@v1
+  with:
+    ruby-version: "3.2"
+    bundler-cache: true
 
-      - uses: actions/configure-pages@v5
+- uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll (trace on failure)
-        run: bundle exec jekyll build --trace
+- name: Build site
+  env:
+    BUNDLE_GEMFILE: Gemfile
+  run: bundle exec jekyll build -d _site
