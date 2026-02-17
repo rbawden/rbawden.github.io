@@ -1,26 +1,39 @@
 name: Beautiful Jekyll CI
 on: [push, pull_request]
+
 jobs:
   build:
     name: Build Jekyll
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "2.7.8"
+          bundler-cache: false
+
+      - name: Install Bundler 2.4.22
+        run: gem install bundler -v 2.4.22
+
       - name: Install dependencies
-        run: bundle install && bundle exec appraisal install
+        run: bundle _2.4.22_ install && bundle _2.4.22_ exec appraisal install
+
       - name: Setup Pages
         id: configure-pages
         uses: actions/configure-pages@v5
+
       - name: Setup CI config
         run: |
           echo "---" > _config_ci.yml
           echo "baseurl: ${{ steps.configure-pages.outputs.base_path }}" >> _config_ci.yml
+
       - name: Build site
         env:
           JEKYLL_ENV: production
-        run: bundle exec appraisal jekyll build --future --config _config_ci.yml,_config.yml
+        run: bundle _2.4.22_ exec appraisal jekyll build --future --config _config_ci.yml,_config.yml
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
