@@ -40,7 +40,7 @@ projects:
     role: "fellow"
     tags: ["ANR"]
     url: "https://www.prairie-psai.fr"
-    logo: "/assets/img/Logo-PRAIRIE-PSAI-cropped.jpg"
+    logo: "/assets/img/Logo-PRAIRIE-PSAI-cropped.png"
     status: "Active"
 
   - title: "DAdaNMT"
