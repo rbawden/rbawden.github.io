@@ -54,6 +54,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.17.3-x86_64-darwin)
+    ffi (1.17.3-x86_64-linux-gnu)
     forwardable (1.4.0)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.8)
@@ -128,6 +129,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.77.5-x86_64-darwin)
       google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86_64-linux-gnu)
+      google-protobuf (>= 3.25, < 5.0)
     set (1.1.2)
     singleton (0.3.0)
     stringio (3.2.0)
@@ -142,6 +145,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   appraisal (~> 2.5)
