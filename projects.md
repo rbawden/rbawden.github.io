@@ -30,7 +30,7 @@ projects:
     description: "The Inria DEFI COLaF (Corpus and Tools for the Languages of France) aims to provide open-source datasets and tools for automatic text and speech processing for the languages and speakers of France."
     url: "https://colaf.huma-num.fr"
     pi: "Benoît Sagot (ALMAnaCH team) and Slim Ouni (MULTISPEECH team)"
-    logo: "/assets/img/colaf-logo.png"
+    logo: "/assets/img/colaf-logo-transparent.png"
     tags: ["DEFI"]
     status: "Active"
 
