@@ -51,22 +51,22 @@ projects:
     logo: "/assets/img/dadanmt.png"
     status: "Past"
 
-  - title: "BigScience"
-    dates: "2021–2022"
-    description: "The BigScience collaboration was a huge community project centred around the training of the open-source large language model, BLOOM.)"
-    role: "a main contribution to the evaluation work package, especially for machine translation"
-    url: "https://bigscience.huggingface.co"
-    logo: "/assets/img/Bloom.png"
-    status: "Past"
+    - title: "BigScience"
+      dates: "2021–2022"
+      description: "The BigScience collaboration was a huge community project centred around the training of the open-source large language model, BLOOM.)"
+      role: "as a main contributor to the evaluation work package, especially for the machine translation task"
+      url: "https://bigscience.huggingface.co"
+      logo: "/assets/img/Bloom.png"
+      status: "Past"
 
-  - title: "PRAIRIE"
-    dates: "2019–2024"
-    role: "holder of a Junior chair position"
-    tags: ["3IA", "ANR"]
-    url: "https://anr.fr/ProjetIA-19-P3IA-0001"
-    logo: "/assets/img/logo-PRAIRIE-transparent.pdf"
-    description: "The PRAIRIE Institute (PaRis AI Research InstitutE) was one of the four French Institutes of Artificial Intelligence, which were created as part of the national French initiative on AI announced by President Emmanuel Macron on May 29, 2018. PRAIRIE brought together academic members (“PRAIRIE chairs”) who excel at research and education in both the core methodological areas and the interdisciplinary aspects of AI, and industrial members that are major actors in AI at the global level and a very strong group of international partners."
-    status: "Past"
+      - title: "PRAIRIE"
+        dates: "2019–2024"
+        role: "holder of a Junior chair position"
+        tags: ["3IA", "ANR"]
+        url: "https://anr.fr/ProjetIA-19-P3IA-0001"
+        logo: "/assets/img/logo-PRAIRIE-transparent.pdf"
+        description: "The PRAIRIE Institute (PaRis AI Research InstitutE) was one of the four French Institutes of Artificial Intelligence, which were created as part of the national French initiative on AI announced by President Emmanuel Macron on May 29, 2018. PRAIRIE brought together academic members (“PRAIRIE chairs”) who excel at research and education in both the core methodological areas and the interdisciplinary aspects of AI, and industrial members that are major actors in AI at the global level and a very strong group of international partners."
+        status: "Past"
 ---
 
 
