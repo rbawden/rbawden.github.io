@@ -56,7 +56,7 @@ projects:
     description: "The BigScience collaboration was a huge community project centred around the training of the open-source large language model, BLOOM.)"
     role: "a main contribution to the evaluation work package, especially for machine translation"
     url: "https://bigscience.huggingface.co"
-    logo: "/assets/img/Bloom.jpg"
+    logo: "/assets/img/Bloom.png"
     status: "Past"
 
   - title: "PRAIRIE"
