@@ -5,7 +5,7 @@ subtitle:
 ---
 
 <object
-  data="{{ '/assets/pdf/CV_RachelBawden_en.pdf' | relative_url }}"
+  data="{{ '/assets/pdf/CVRachelBawden.pdf' | relative_url }}"
   type="application/pdf"
   width="100%"
   height="900"
