@@ -9,7 +9,7 @@ subtitle:
 ## PhD students
 
 - **Oriane Nédey** (October 2024--present). PhD funded by the COLaF Inria DEFI. [Machine Translation for low-resource dialectal variants](https://theses.fr/s401679). Co-supervised with Benoît Sagot and Thibault Clérice.
-- **Armel Zebaze** (November 2023--present). PhD funded by Inria. Analogy for multilingual NLP. Co-supervised with Benoît Sagot.
+- [**Armel Zebaze**](https://armelrandy.github.io) (November 2023--present). PhD funded by Inria. Analogy for multilingual NLP. Co-supervised with Benoît Sagot.
 - **Nicolas Dahan** (October 2023--present). PhD funded by the MaTOS ANR
 project. [Evaluation of the machine translation of scientific documents](https://theses.fr/s387661). Co-supervised with François Yvon (CNRS).
 - **Ziqian Peng** (October 2023--present). PhD funded by the MaTOS ANR
