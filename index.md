@@ -23,8 +23,9 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
   - MetaDocEval: A Contrastive Framework for Evaluating Machine Translation
   Metrics at the Document-Level. Dahan et al. (Technical track)
   - The MaTOS Pipeline for the Translation of Scientific Abstracts on the HAL Platform. Tsolakis et al. (Implementations and case studies track)
-- 03/26: 1 paper accepted at the LT4HALA 2026 workshop:
-    - [-Editorial Normalization for Automatically Transcribed Medieval Manuscripts in Old French and Latin](https://arxiv.org/abs/2602.13905). Clérice et al.
+- 03/26: 2 papers accepted at the workshops colocated with LREC 2026:
+  - Parallel Corpora of Scholarly Documents for English-French Machine Translation. Peng et al. (BUCC)
+  - [-Editorial Normalization for Automatically Transcribed Medieval Manuscripts in Old French and Latin](https://arxiv.org/abs/2602.13905). Clérice et al. (LT4HALA)
 - 📄 02/26: 2 papers accepted at LREC 2026:
   - [ForumOccitania: a Corpus of User-Generated Content for Multiple Occitan Varieties](https://inria.hal.science/hal-05413035v1). Nédey et al.
   - [Hindsight Quality Prediction Experiments in Multi-Candidate Human-Post-Edited Machine Translation](https://arxiv.org/abs/2603.04083). Marmonier et al.
