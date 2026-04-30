@@ -23,9 +23,9 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
   - MetaDocEval: A Contrastive Framework for Evaluating Machine Translation
   Metrics at the Document-Level. Dahan et al. (Technical track)
   - The MaTOS Pipeline for the Translation of Scientific Abstracts on the HAL Platform. Tsolakis et al. (Implementations and case studies track)
-- 04/26: 1 paper accepted at ACL Findings 2026:
+- 📄 04/26: 1 paper accepted at ACL Findings 2026:
   - Gaperon: A Peppered English-French Generative Language Model Suite. Godey et al.
-- 03/26: 2 papers accepted at the workshops colocated with LREC 2026:
+- 📄 03/26: 2 papers accepted at the workshops colocated with LREC 2026:
   - Parallel Corpora of Scholarly Documents for English-French Machine Translation. Peng et al. (BUCC)
   - [-Editorial Normalization for Automatically Transcribed Medieval Manuscripts in Old French and Latin](https://arxiv.org/abs/2602.13905). Clérice et al. (LT4HALA)
 - 📄 02/26: 2 papers accepted at LREC 2026:
