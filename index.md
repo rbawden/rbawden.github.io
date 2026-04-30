@@ -18,9 +18,14 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 ### 🗞 News
 
 
+- 📄 04/26: 3 papers accepted at EAMT 2026:
+  - When the Gold Standard Isn't Necessarily Standard: Challenges of Evaluating the Translation of User-Generated Content. Nishimwe et al. (Technical track)
+  - MetaDocEval: A Contrastive Framework for Evaluating Machine Translation
+  Metrics at the Document-Level. Dahan et al. (Technical track)
+  - The MaTOS Pipeline for the Translation of Scientific Abstracts on the HAL Platform. Tsolakis et al. (Implementations and case studies track)
 - 📄 02/26: 2 papers accepted at LREC 2026:
   - [ForumOccitania: a Corpus of User-Generated Content for Multiple Occitan Varieties](https://inria.hal.science/hal-05413035v1). Nédey et al.
-  - Hindsight Quality Prediction Experiments in Multi-Candidate Human-Post-Edited Machine Translation. Marmonier et al. 
+  - [Hindsight Quality Prediction Experiments in Multi-Candidate Human-Post-Edited Machine Translation](https://arxiv.org/abs/2603.04083). Marmonier et al. 
 - 📄 11/25: 4 papers published at EMNLP 2025:
   - [Compositional Translation: A Novel LLM-based Approach for Low-resource Machine Translation](https://aclanthology.org/2025.findings-emnlp.1216/). Zebaze et al.
   - [TopXGen: Topic-Diverse Parallel Data Generation for Low-Resource Machine Translation](https://aclanthology.org/2025.findings-emnlp.1217/). Zebaze et al.
