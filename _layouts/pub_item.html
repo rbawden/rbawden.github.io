@@ -68,8 +68,8 @@
     <!-- {%- endcapture -%} -->
     <!-- {{ thesismeta }}. -->
   {%- endif -%}
-  {%- if note -%}
-      {%- assign note_stripped = note | strip -%}
+  {%- if entry.note -%}
+      {%- assign note_stripped = entry.note | strip -%}
    {{ note_stripped }}. 
  {%- endif -%}
 
