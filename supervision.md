@@ -20,6 +20,10 @@ project (recruited at ISIR, CNRS). [Machine translation of scientific documents]
 - **Panagiotis Tsolakis** (October 2024--present). Scientific article management infrastructure for translation (MaTOS project).
 - **Malik Marmonier** (May 2024--present). Translating with large language models without parallel data for low-resource languages (TraLaLaM project). Co-supervised with Benoît Sagot.
 
+## Interns
+
+- [**Adle Ben Salem**](https://github.com/Jeerhz) (April 2026--present). Adapting automatic evaluation metrics for scientific document translation. Co-supervised with François Yvon.
+
 -----
 
 # Past

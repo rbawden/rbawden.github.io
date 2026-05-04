@@ -17,7 +17,8 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 
 ### 🗞 News
 
-
+- 📄 05/25: 1 paper accepted to ICML 2026:
+  - [Disentangling meaning from language in LLM-based machine translation](https://arxiv.org/abs/2602.04613). Lasnier et al.
 - 📄 04/26: 3 papers accepted at EAMT 2026:
   - When the Gold Standard Isn't Necessarily Standard: Challenges of Evaluating the Translation of User-Generated Content. Nishimwe et al. (Technical track)
   - MetaDocEval: A Contrastive Framework for Evaluating Machine Translation
