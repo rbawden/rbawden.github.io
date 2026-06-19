@@ -61,13 +61,12 @@
 
   {%- comment -%} ---------- THESIS META (own line, tidy separators) ---------- {%- endcomment -%}
   {%- if is_thesis -%}
-    <!-- {%- capture thesismeta -%} -->
       {%- if entry.school -%} {{ entry.school }}{%- endif -%}
       {%- if entry.address -%}.  {{ entry.address }}{%- endif -%}
-      {%- if entry.note -%}. {{ entry.note }}.{%- endif -%}
-    <!-- {%- endcapture -%} -->
-    <!-- {{ thesismeta }}. -->
-  {%- endif -%}
-  {%- if entry.note -%} {{ entry.note | strip }}.{%- endif -%}
+      {%- if entry.note -%}.&nbsp;{{ entry.note }}.{%- endif -%}
+  {%- else -%}
+      {%- if entry.note -%}&nbsp;{{ entry.note | strip }}.{%- endif -%}
+   {%- endif -%}
+  
 
 </div>
