@@ -18,7 +18,7 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 ### 🗞 News
 
 - 🎤 15/06/26: Keynote talk at EAMT 2026: "Large Language Models and Machine Translation: From Low-Resource to Unseen Languages". I had the opportunity to talk about some of our work on data generation, compositional translation, LLM reasoning and explicit reasoning, research carried out by Armel Zebaze and Malik Marmonier and co-supervised with Benoît Sagot.
-- 1 paper accepted at AMTA 2026:
+- 📄 09/06: 1 paper accepted at AMTA 2026:
   - [Improving Term Evaluation in Machine Translation: Variation Matters](). Dahan et al.
 - 📄 05/25: 1 paper accepted at ICML 2026:
   - [Disentangling meaning from language in LLM-based machine translation](https://arxiv.org/abs/2602.04613). Lasnier et al.
