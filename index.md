@@ -17,9 +17,15 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 
 ### 🗞 News
 
+- 📄 03/09: 4 papers accepted at WMT 2026:
+  - Contrastive ESA: Human Evaluation of Multiple Translations at Once. Zouhar et al.
+  - TermJudge: A Document-Level Metric Judging, Not Counting, Terminology in Machine Translation Evaluation. Dahan et al.
+  - A French Version of the SmolSent Corpus. Marmonier et al.
+  - A Savoyard Version of the FLORES+ Corpus. Marmonier et al.
+- 📄 21/08: 1 paper accepted at EMNLP 2026: LLM Reasoning for Machine Translation: Synthetic Data Generation over Thinking Tokens. Armel Zebaze et al.
 - 🎤 15/06/26: Keynote talk at EAMT 2026: "Large Language Models and Machine Translation: From Low-Resource to Unseen Languages". I had the opportunity to talk about some of our work on data generation, compositional translation, LLM reasoning and explicit reasoning, research carried out by Armel Zebaze and Malik Marmonier and co-supervised with Benoît Sagot.
 - 📄 09/06: 1 paper accepted at AMTA 2026:
-  - [Improving Term Evaluation in Machine Translation: Variation Matters](). Dahan et al.
+  - [Improving Term Evaluation in Machine Translation: Variation Matters](https://aclanthology.org/2026.amta-research.7/). Dahan et al.
 - 📄 05/25: 1 paper accepted at ICML 2026:
   - [Disentangling meaning from language in LLM-based machine translation](https://arxiv.org/abs/2602.04613). Lasnier et al.
 - 📄 04/26: 3 papers accepted at EAMT 2026:

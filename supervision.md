@@ -8,6 +8,7 @@ subtitle:
 
 ## PhD students
 
+- **Eli Stafford** (September 2026-present). PhD funded by PRAIRIE-PSAI. Task-Specific and Linguistically Motivated Evaluation for Multilingual NLP. Co-supervised with Benoît Sagot.
 - **Oriane Nédey** (October 2024--present). PhD funded by the COLaF Inria DEFI. [Machine Translation for low-resource dialectal variants](https://theses.fr/s401679). Co-supervised with Benoît Sagot and Thibault Clérice.
 - [**Armel Zebaze**](https://armelrandy.github.io) (November 2023--present). PhD funded by Inria. Analogy for multilingual NLP. Co-supervised with Benoît Sagot.
 - **Nicolas Dahan** (October 2023--present). PhD funded by the MaTOS ANR
@@ -22,7 +23,7 @@ project (recruited at ISIR, CNRS). [Machine translation of scientific documents]
 
 ## Interns
 
-- [**Adle Ben Salem**](https://github.com/Jeerhz) (April 2026--present). Adapting automatic evaluation metrics for scientific document translation. Co-supervised with François Yvon.
+- [**Adle Ben Salem**](https://github.com/Jeerhz) (April--September 2026). Adapting automatic evaluation metrics for scientific document translation. Co-supervised with François Yvon.
 
 -----
 
