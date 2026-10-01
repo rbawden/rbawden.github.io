@@ -3,6 +3,17 @@ layout: project_page
 title: Research projects
 subtitle: 
 projects:
+- title: "Fabuleux (Fighting Fabrication and Misuse of LLMs in Scientific Writing)"
+  dates: "2026–2030"
+  description: "The aim of the project is to (i)~to improve the usefulness of LLMs in assisting scientific writing and (ii) to assess the validity and reliability of scientific content. The project will deliver diagnostic benchmarks, methods for detecting problematic revisions and assessing multimodal evidence grounding, feedback mechanisms to support researchers’ writing practices, and interpretable indicators for assessing scientific reliability at the scale of full papers. Fabuleux will also generate new knowledge on how LLMs transform scientific writing and on how these transformations can be analysed, supported, and evaluated"
+  pi: "Florian Boudin (LS2N - Inria)"
+  partners: "[Nantes Université (LS2N)](ls2n.fr), [CNRS (MLIA, ISIR)](https://www.isir.upmc.fr), [CNRS (LORIA)](https://www.loria.fr/en/)."
+  role: leader for Inria and head of the work package on translation for low-resource translation without parallel data
+  url: "https://ressources.chapsvision.com/fr/tralalam/projet"
+  logo: ""
+  tags: ["ANR"]
+  status: "Active"
+
   - title: "TraLaLaM (Translating with Large Language Models)"
     dates: "2023–2026"
     description: "The aim of the project is to explore the use of large language models (LLMs) for machine translation, by asking two main questions: (i) in what scenarios can contextual information be effectively used via prompting? and (ii) for low-resource scenarios (with a focus on dialects and regional languages), can LLMs be effectively trained without any parallel data?"
@@ -12,7 +23,7 @@ projects:
     url: "https://ressources.chapsvision.com/fr/tralalam/projet"
     logo: "/assets/img/tralalam.png"
     tags: ["ANR"]
-    status: "Active"
+    status: "Past"
 
   - title: "MaTOS (Machine Translation for Open Science)"
     dates: "2023–2026"
@@ -23,10 +34,10 @@ projects:
     url: "https://anr-matos.github.io"
     logo: "/assets/img/matos-logo.png"
     tags: ["ANR"]
-    status: "Active"
+    status: "Past"
 
-  - title: "CoLAF (Corpus et Outils pour les Langues de France  'Corpora and Tools for the Languages of France'"
-    dates: "2025–2028"
+  - title: "COLaF (Corpus et Outils pour les Langues de France)  'Corpora and Tools for the Languages of France'"
+    dates: "2023–2028"
     description: "The Inria DEFI COLaF (Corpus and Tools for the Languages of France) aims to provide open-source datasets and tools for automatic text and speech processing for the languages and speakers of France."
     url: "https://colaf.huma-num.fr"
     pi: "Benoît Sagot (ALMAnaCH team) and Slim Ouni (MULTISPEECH team)"
@@ -45,7 +56,7 @@ projects:
 
   - title: "DAdaNMT"
     dates: "2022–2023"
-    description: "The aim of this project is to investigate domain adaptation for neural machine translation. We will be exploring the adaptation of models to specific, low-resource domains domains as well as training models for multiple domains."
+    description: "The aim of this project is to investigate domain adaptation for neural machine translation. We will be exploring the adaptation of models to specific, low-resource domains as well as training models for multiple domains."
     role: PI
     tags: ["Sorbonne Emergence"]
     logo: "/assets/img/dadanmt.png"
@@ -53,7 +64,7 @@ projects:
 
   - title: "BigScience"
     dates: "2021–2022"
-    description: "The BigScience collaboration was a huge community project centred around the training of the open-source large language model, BLOOM.)"
+    description: "The BigScience collaboration was a huge community project centred around the training of the open-source large language model, BLOOM."
     role: "as a main contributor to the evaluation work package, especially for the machine translation task"
     url: "https://bigscience.huggingface.co"
     logo: "/assets/img/Bloom.png"
