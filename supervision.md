@@ -32,7 +32,7 @@ and PR[AI]RIE. [Multimodal Machine Translation](https://theses.fr/s311427). Co-s
 ## Engineers
 
 - **Panagiotis Tsolakis** (October 2024--September 2026). Scientific article management infrastructure for translation (MaTOS project).
-- **Malik Marmonier** (May 2024--September 2026). Translating with large language models without parallel data for low-resource languages (TraLaLaM project). Co-supervised with Benoît Sagot.
+- **Malik Marmonier** (May 2024--September 2026). Translating with large language models without parallel data for low-resource languages (TraLaLaM project). Co-supervised with Benoît Sagot. Malik is currently one of my PhD students.
 - [**Oriane Nédey**](https://www.linkedin.com/in/oriane-nedey/) (December 2023--September 2024). Data collection and translation models for a regional language of France (COLaF project). Oriane is currently one of my PhD students.
 - [**Seth Aycock**](https://sethjsa.github.io) (August 2023--October 2023). Domain adaptation for neural machine translation in low-resource settings. Seth is currently a PhD student at the University of Amsterdam.
 - [**Niyati Bafna**](https://niyatibafna.github.io) (October 2022--June 2023). Linguistically inspired language models for closely related languages. Co-supervised with Benoît Sagot, Josef van Genabith and Cristina España-Bonet. Niyati is currently a PhD student at Johns Hopkins University.
