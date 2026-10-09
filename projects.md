@@ -3,7 +3,7 @@ layout: project_page
 title: Research projects
 subtitle: 
 projects:
-- title: "Fabuleux (Fighting Fabrication and Misuse of LLMs in Scientific Writing)"
+  - title: "Fabuleux (Fighting Fabrication and Misuse of LLMs in Scientific Writing)"
   dates: "2026–2030"
   description: "The aim of the project is to (i)~to improve the usefulness of LLMs in assisting scientific writing and (ii) to assess the validity and reliability of scientific content. The project will deliver diagnostic benchmarks, methods for detecting problematic revisions and assessing multimodal evidence grounding, feedback mechanisms to support researchers’ writing practices, and interpretable indicators for assessing scientific reliability at the scale of full papers. Fabuleux will also generate new knowledge on how LLMs transform scientific writing and on how these transformations can be analysed, supported, and evaluated"
   pi: "Florian Boudin (LS2N - Inria)"
@@ -13,7 +13,7 @@ projects:
   logo: ""
   tags: ["ANR"]
   status: "Active"
-- title: "TraLaLaM (Translating with Large Language Models)"
+  - title: "TraLaLaM (Translating with Large Language Models)"
     dates: "2023–2026"
     description: "The aim of the project is to explore the use of large language models (LLMs) for machine translation, by asking two main questions: (i) in what scenarios can contextual information be effectively used via prompting? and (ii) for low-resource scenarios (with a focus on dialects and regional languages), can LLMs be effectively trained without any parallel data?"
     pi: "Josep Crego (Systran)"
