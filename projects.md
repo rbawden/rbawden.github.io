@@ -13,8 +13,7 @@ projects:
   logo: ""
   tags: ["ANR"]
   status: "Active"
-
-  - title: "TraLaLaM (Translating with Large Language Models)"
+- title: "TraLaLaM (Translating with Large Language Models)"
     dates: "2023–2026"
     description: "The aim of the project is to explore the use of large language models (LLMs) for machine translation, by asking two main questions: (i) in what scenarios can contextual information be effectively used via prompting? and (ii) for low-resource scenarios (with a focus on dialects and regional languages), can LLMs be effectively trained without any parallel data?"
     pi: "Josep Crego (Systran)"
