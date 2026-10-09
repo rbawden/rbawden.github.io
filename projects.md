@@ -5,7 +5,7 @@ subtitle:
 projects:
   - title: "Fabuleux (Fighting Fabrication and Misuse of LLMs in Scientific Writing)"
     dates: "2026–2030"
-    description: "The aim of the project is to (i)~to improve the usefulness of LLMs in assisting scientific writing and (ii) to assess the validity and reliability of scientific content. The project will deliver diagnostic benchmarks, methods for detecting problematic revisions and assessing multimodal evidence grounding, feedback mechanisms to support researchers’ writing practices, and interpretable indicators for assessing scientific reliability at the scale of full papers. Fabuleux will also generate new knowledge on how LLMs transform scientific writing and on how these transformations can be analysed, supported, and evaluated"
+    description: "The aim of the project is to (i)~to improve the usefulness of LLMs in assisting scientific writing and (ii) to assess the validity and reliability of scientific content. The project will deliver diagnostic benchmarks, methods for detecting problematic revisions and assessing multimodal evidence grounding, feedback mechanisms to support researchers’ writing practices, and interpretable indicators for assessing scientific reliability at the scale of full papers."
     pi: "Florian Boudin (LS2N - Inria)"
     partners: "[Nantes Université (LS2N)](ls2n.fr), [CNRS (MLIA, ISIR)](https://www.isir.upmc.fr), [CNRS (LORIA)](https://www.loria.fr/en/)."
     role: leader for Inria and head of the work package on suggesting revisions in scientific writing
