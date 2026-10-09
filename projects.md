@@ -8,9 +8,9 @@ projects:
     description: "The aim of the project is to (i)~to improve the usefulness of LLMs in assisting scientific writing and (ii) to assess the validity and reliability of scientific content. The project will deliver diagnostic benchmarks, methods for detecting problematic revisions and assessing multimodal evidence grounding, feedback mechanisms to support researchers’ writing practices, and interpretable indicators for assessing scientific reliability at the scale of full papers. Fabuleux will also generate new knowledge on how LLMs transform scientific writing and on how these transformations can be analysed, supported, and evaluated"
     pi: "Florian Boudin (LS2N - Inria)"
     partners: "[Nantes Université (LS2N)](ls2n.fr), [CNRS (MLIA, ISIR)](https://www.isir.upmc.fr), [CNRS (LORIA)](https://www.loria.fr/en/)."
-    role: leader for Inria and head of the work package on translation for low-resource translation without parallel data
-    url: "https://ressources.chapsvision.com/fr/tralalam/projet"
-    logo: ""
+    role: leader for Inria and head of the work package on suggesting revisions in scientific writing
+    url: "https://anr-fabuleux.github.io"
+    logo: "https://anr-fabuleux.github.io/assets/logo-fabuleux-header.png"
     tags: ["ANR"]
     status: "Active"
   - title: "TraLaLaM (Translating with Large Language Models)"
