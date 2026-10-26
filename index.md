@@ -30,14 +30,13 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 - 📄 04/26: 1 paper accepted at ICML 2026:
   - [Disentangling meaning from language in LLM-based machine translation](https://arxiv.org/abs/2602.04613). Lasnier et al.
 - 📄 04/26: 3 papers accepted at EAMT 2026:
-  - When the Gold Standard Isn't Necessarily Standard: Challenges of Evaluating the Translation of User-Generated Content. Nishimwe et al. (Technical track)
-  - MetaDocEval: A Contrastive Framework for Evaluating Machine Translation
-  Metrics at the Document-Level. Dahan et al. (Technical track)
-  - The MaTOS Pipeline for the Translation of Scientific Abstracts on the HAL Platform. Tsolakis et al. (Implementations and case studies track)
+  - [When the Gold Standard Isn't Necessarily Standard: Challenges of Evaluating the Translation of User-Generated Content](https://aclanthology.org/2026.eamt-1.30/). Nishimwe et al. (Technical track)
+  - [MetaDocEval: A Contrastive Framework for Evaluating Machine Translation Metrics at the Document-Level](https://aclanthology.org/2026.eamt-1.19/). Dahan et al. (Technical track)
+  - [The MaTOS Pipeline for the Translation of Scientific Abstracts on the HAL Platform](https://aclanthology.org/2026.eamt-2.30/). Tsolakis et al. (Implementations and case studies track)
 - 📄 04/26: 1 paper accepted at ACL Findings 2026:
-  - Gaperon: A Peppered English-French Generative Language Model Suite. Godey et al.
+  - [Gaperon: A Peppered English-French Generative Language Model Suite](https://aclanthology.org/2026.findings-acl.1955/). Godey et al.
 - 📄 03/26: 2 papers accepted at the workshops colocated with LREC 2026:
-  - Parallel Corpora of Scholarly Documents for English-French Machine Translation. Peng et al. (BUCC)
+  - [Parallel Corpora of Scholarly Documents for English-French Machine Translation](https://aclanthology.org/2026.bucc-1.10.pdf). Peng et al. (BUCC)
   - [Pre-Editorial Normalization for Automatically Transcribed Medieval Manuscripts in Old French and Latin](https://arxiv.org/abs/2602.13905). Clérice et al. (LT4HALA)
 - 📄 02/26: 2 papers accepted at LREC 2026:
   - [ForumOccitania: a Corpus of User-Generated Content for Multiple Occitan Varieties](https://inria.hal.science/hal-05413035v1). Nédey et al.
