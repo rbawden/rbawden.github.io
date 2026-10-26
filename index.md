@@ -17,12 +17,13 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 
 ### 🗞 News
 
-- 📄 09/26: 4 papers accepted at WMT 2026:
-  - Contrastive ESA: Human Evaluation of Multiple Translations at Once. Zouhar et al.
-  - TermJudge: A Document-Level Metric Judging, Not Counting, Terminology in Machine Translation Evaluation. Dahan et al.
-  - A French Version of the SmolSent Corpus. Marmonier et al.
-  - A Savoyard Version of the FLORES+ Corpus. Marmonier et al.
-- 📄 08/26: 1 paper accepted at EMNLP 2026: LLM Reasoning for Machine Translation: Synthetic Data Generation over Thinking Tokens. Armel Zebaze et al.
+- 📄 09/26: 5 papers accepted at WMT 2026:
+  - [Contrastive ESA: Human Evaluation of Multiple Translations at Once](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.47.pdf). Zouhar et al.
+  - [TermJudge: A Document-Level Metric Judging, Not Counting, Terminology in Machine Translation Evaluation](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.6.pdf). Dahan et al.
+  - [A French Version of the SmolSent Corpus](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.196.pdf). Marmonier et al.
+  - [A Savoyard Version of the FLORES+ Corpus](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.197.pdf). Marmonier et al.
+  - [Findings of the WMT26 General Machine Translation Shared Task: Contrastive Dynamic Human Evaluation at Scale](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.48.pdf). Kocmi et al.
+- 📄 08/26: 1 paper accepted at EMNLP 2026: [LLM Reasoning for Machine Translation: Synthetic Data Generation over Thinking Tokens](https://aclanthology.org/2026.emnlp-main.1302/). Zebaze et al.
 - 🎤 06/26: Keynote talk at EAMT 2026: "Large Language Models and Machine Translation: From Low-Resource to Unseen Languages". I had the opportunity to talk about some of our work on data generation, compositional translation, LLM reasoning and explicit reasoning, research carried out by Armel Zebaze and Malik Marmonier and co-supervised with Benoît Sagot.
 - 📄 06/26: 1 paper accepted at AMTA 2026:
   - [Improving Term Evaluation in Machine Translation: Variation Matters](https://aclanthology.org/2026.amta-research.7/). Dahan et al.
