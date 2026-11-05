@@ -11,7 +11,6 @@ subtitle:
 - **Malik Marmonier** (October 2026--present). PhD funded by PRAIRIE-PSAI. Meta-linguistic abilities of large language models. Co-supervised with Benoît Sagot.
 - **Eli Stafford** (September 2026--present). PhD funded by PRAIRIE-PSAI. Task-Specific and Linguistically Motivated Evaluation for Multilingual NLP. Co-supervised with Benoît Sagot.
 - **Oriane Nédey** (October 2024--present). PhD funded by the COLaF Inria DEFI. [Machine Translation for low-resource dialectal variants](https://theses.fr/s401679). Co-supervised with Benoît Sagot and Thibault Clérice.
-- [**Armel Zebaze**](https://armelrandy.github.io) (November 2023--present). PhD funded by Inria. Analogy for multilingual NLP. Co-supervised with Benoît Sagot.
 - **Nicolas Dahan** (October 2023--present). PhD funded by the MaTOS ANR
 project. [Evaluation of the machine translation of scientific documents](https://theses.fr/s387661). Co-supervised with François Yvon (CNRS).
 - **Ziqian Peng** (October 2023--present). PhD funded by the MaTOS ANR
@@ -24,6 +23,7 @@ project (recruited at ISIR, CNRS). [Machine translation of scientific documents]
 
 ## PhD students
 
+- [**Armel Zebaze**](https://armelrandy.github.io) (November 2023--November 2026). PhD funded by Inria. [Low-resource machine translation with large language models](https://theses.fr/s385226). Co-supervised with Benoît Sagot.
 - [**Lydia Nishimwe**](https://lydianishimwe.info) (October 2021--June 2025). PR[AI]RIE-funded PhD. [Robust Neural Machine Translation](https://theses.fr/2025SORUS369). Co-supervised with Benoît Sagot.
 - [**Matthieu Futeral-Peter**](https://mfuteral.github.io) (October 2021--December 2025). PhD funded by Inria
 and PR[AI]RIE. [Multimodal Machine Translation](https://theses.fr/s311427). Co-supervised with Ivan Laptev, Benoît Sagot and Cordelia Schmid. Matthieu is currently working at Mistral AI.
@@ -32,7 +32,7 @@ and PR[AI]RIE. [Multimodal Machine Translation](https://theses.fr/s311427). Co-s
 
 ## Engineers
 
-- **Panagiotis Tsolakis** (October 2024--September 2026). Scientific article management infrastructure for translation (MaTOS project).
+- [**Panagiotis Tsolakis**](https://www.linkedin.com/in/panagiotis-tsolakis-nlp) (October 2024--September 2026). Scientific article management infrastructure for translation (MaTOS project).
 - **Malik Marmonier** (May 2024--September 2026). Translating with large language models without parallel data for low-resource languages (TraLaLaM project). Co-supervised with Benoît Sagot. Malik is currently one of my PhD students.
 - [**Oriane Nédey**](https://www.linkedin.com/in/oriane-nedey/) (December 2023--September 2024). Data collection and translation models for a regional language of France (COLaF project). Oriane is currently one of my PhD students.
 - [**Seth Aycock**](https://sethjsa.github.io) (August 2023--October 2023). Domain adaptation for neural machine translation in low-resource settings. Seth is currently a PhD student at the University of Amsterdam.
