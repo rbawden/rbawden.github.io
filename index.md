@@ -17,8 +17,7 @@ at the LIMSI laboratory (now LISN) and MT for low-resource languages in my post-
 
 ### 🗞 News
 
-- ⚠️N.B. I am not currently recruiting interns or accepting visiting students for 2027 as I will be on maternity leave ⚠
-
+- ⚠️ N.B. I am not currently recruiting interns or accepting visiting students for 2027 as I will be on maternity leave
 - 🎓 10/25: Armel Zebaze successfully defended his PhD on Low-resource machine translation with large language models, supervised by Benoît Sagot and me.
 - 📄 09/26: 5 papers accepted at WMT 2026:
   - [Contrastive ESA: Human Evaluation of Multiple Translations at Once](https://www2.statmt.org/wmt26/pdf/2026.wmt-1.47.pdf). Zouhar et al.
